@@ -1,5 +1,5 @@
 # Convertisseur-en-epicycloide
-Convertit des images en un tracé par des épicycloïdes.
+Convertit des images en un tracé par des épicycloïdes (https://en.wikipedia.org/wiki/Epicycloid).
 # Exemple
 ## Entrée de l'algorithme
 L'image doit être encodé en noir et blanc. Les pixels noirs doivent être connexes et 100% noirs.
