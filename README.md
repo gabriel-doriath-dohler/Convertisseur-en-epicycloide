@@ -2,8 +2,10 @@
 Convertit des images en un tracé par des épicycloïdes.
 # Exemple
 ## Entrée de l'algorithme
+L'image doit être encodé en noir et blanc. Les pixels noirs doivent être connexes et 100% noirs.
 ![alt text](https://github.com/gabriel-doriath-dohler/Convertisseur-en-epicycloide/blob/master/ens.png?raw=true)
-## Détection des bords
+## Détection des bords et calcul d'un chemin (boucle) dans le bord
+Le calcul de chemin est à améliorer car il est très primitif et ne marche pas tout le temps.
 ![alt text](https://github.com/gabriel-doriath-dohler/Convertisseur-en-epicycloide/blob/master/edge.png?raw=true)
 ## Calculs des coefficients de fourier pour approximer la coubre par une épicycloïde
 ## Comparaison (en haut le bord et en bas l'approximation)
